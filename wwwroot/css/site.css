@@ -1,0 +1,155 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+  /*My own elements*/
+
+
+/*Timely style*/
+.timelytext {
+
+left: 15.6%;
+right: 15.6%;
+top: -60.79%;
+bottom: 1.46%;
+
+font-family: 'Bellota';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 50px;
+
+
+background: #E3EBED;
+border-radius: 50px;
+border-width: 50px;
+
+color: #101b37;
+}
+
+.jumbotron {
+  background-color: #101b37;
+  /* Orange */
+  color: #ffffff;
+}
+
+/*For the pics*/
+.lileffect
+{
+column-width: auto;
+
+box-shadow: 673px 665px 378px rgba(22, 32, 34, 0.01),
+379px 374px 319px rgba(22, 32, 34, 0.05),
+168px 166px 236px rgba(22, 32, 34, 0.09),
+42px 42px 130px rgba(22, 32, 34, 0.1),
+0px 0px 0px rgba(22, 32, 34, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/*mascot*/
+
+.card {
+  position: relative;
+}
+
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .card-image img {
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.card:hover .card-image img {
+  transform: scale(1.1);
+}
+
+.card:hover .card-hover-image {
+  opacity: 1;
+  z-index: 1;
+}
+
