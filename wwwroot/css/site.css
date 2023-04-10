@@ -153,3 +153,8 @@ box-shadow: 673px 665px 378px rgba(22, 32, 34, 0.01),
   z-index: 1;
 }
 
+
+
+body {
+  transition: background-color 0.5s ease-in-out;
+}
