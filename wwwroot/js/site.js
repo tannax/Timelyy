@@ -2,12 +2,9 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-const icon = document.querySelector('.card-icon');
 
-icon.addEventListener('mousemove', (event) => {
-  const x = event.pageX;
-  const y = event.pageY;
+document.addEventListener('click', () => {
+    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    document.body.style.backgroundColor = randomColor;
+  });
   
-  icon.style.top = y + 'px';
-  icon.style.left = x + 'px';
-});
